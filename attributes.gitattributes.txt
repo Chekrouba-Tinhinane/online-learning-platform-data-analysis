@@ -1,0 +1,13 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Explicitly set the line ending for known binary files.
+*.jpg binary
+*.png binary
+*.gif binary
+
+# Handle line endings for CSV files.
+*.csv text eol=lf
+
+# Handle line endings for Python files.
+*.py text eol=lf
